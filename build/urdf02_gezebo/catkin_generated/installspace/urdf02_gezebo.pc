@@ -1,0 +1,8 @@
+prefix=/home/jiegeng/demo02_ws/install
+
+Name: urdf02_gezebo
+Description: Description of urdf02_gezebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

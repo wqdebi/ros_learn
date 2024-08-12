@@ -1,0 +1,10 @@
+<launch>
+    <!-- 设置地图的配置文件 -->
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" />
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+    
+    <include file="$(find nav_demo)/launch/nav03_map_server.launch" />
+    <include file="$(find nav_demo)/launch/nav04_amcl.launch" />
+    <!-- 运行rviz -->
+    <node pkg="rviz" type="rviz" name="rviz"/>
+</launch>

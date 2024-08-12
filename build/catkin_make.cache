@@ -1,0 +1,2 @@
+hello_vscode:nav_demo:plumbing_head:plumbing_my:plumbing_param_server:plumbing_pub_sub:plumbing_server_client:plumbing_test:rename01_node:rename02_topic:rename04_param:tf01_static:tf02_dynamic:tf03_tfs:tf04_test:urdf01_rviz:urdf02_gezebo
+-DCATKIN_DEVEL_PREFIX=/home/jiegeng/demo02_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jiegeng/demo02_ws/install -G Unix Makefiles
