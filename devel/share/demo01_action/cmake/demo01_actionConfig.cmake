@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(demo01_action_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT " " STREQUAL " ")
+if(NOT "/home/jiegeng/demo02_ws/devel/include " STREQUAL " ")
   set(demo01_action_INCLUDE_DIRS "")
-  set(_include_dirs "")
+  set(_include_dirs "/home/jiegeng/demo02_ws/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -177,7 +177,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(demo01_action_EXPORTED_TARGETS "")
+set(demo01_action_EXPORTED_TARGETS "demo01_action_generate_messages_cpp;demo01_action_generate_messages_eus;demo01_action_generate_messages_lisp;demo01_action_generate_messages_nodejs;demo01_action_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${demo01_action_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -185,7 +185,7 @@ foreach(t ${demo01_action_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "actionlib;actionlib_msgs;roscpp;rospy;std_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
@@ -214,7 +214,7 @@ foreach(depend ${depends})
   _list_append_deduplicate(demo01_action_EXPORTED_TARGETS ${${demo01_action_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "demo01_action-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${demo01_action_DIR}/${extra})

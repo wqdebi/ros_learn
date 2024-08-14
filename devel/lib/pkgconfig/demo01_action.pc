@@ -3,6 +3,6 @@ prefix=/home/jiegeng/demo02_ws/devel
 Name: demo01_action
 Description: Description of demo01_action
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/jiegeng/demo02_ws/devel/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: actionlib actionlib_msgs roscpp rospy std_msgs
