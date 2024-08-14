@@ -1,0 +1,8 @@
+prefix=/home/jiegeng/demo02_ws/install
+
+Name: demo01_action
+Description: Description of demo01_action
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
