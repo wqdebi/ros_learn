@@ -10,7 +10,8 @@
         "/home/jiegeng/demo01_ws/src/helloworld/include/**",
         "/usr/include/**",
         "/home/jiegeng/demo02_ws/devel/include/**",
-        "/home/jiegeng/demo02_ws/src/plumbing_head/include/**"
+        "/home/jiegeng/demo02_ws/src/plumbing_head/include/**",
+        "/home/jiegeng/demo02_ws/src/demo03_plugin/include/demo03_plugin/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

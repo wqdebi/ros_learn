@@ -7,6 +7,7 @@
 subdirs("gtest")
 subdirs("plumbing_my")
 subdirs("rename01_node")
+subdirs("demo03_plugin")
 subdirs("hello_vscode")
 subdirs("plumbing_head")
 subdirs("plumbing_param_server")

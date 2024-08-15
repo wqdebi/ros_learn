@@ -597,6 +597,12 @@ demo02_dr_BINARY_DIR:STATIC=/home/jiegeng/demo02_ws/build/demo02_dr
 //Value Computed by CMake
 demo02_dr_SOURCE_DIR:STATIC=/home/jiegeng/demo02_ws/src/demo02_dr
 
+//Value Computed by CMake
+demo03_plugin_BINARY_DIR:STATIC=/home/jiegeng/demo02_ws/build/demo03_plugin
+
+//Value Computed by CMake
+demo03_plugin_SOURCE_DIR:STATIC=/home/jiegeng/demo02_ws/src/demo03_plugin
+
 //The directory containing a CMake configuration file for diagnostic_msgs.
 diagnostic_msgs_DIR:PATH=/opt/ros/noetic/share/diagnostic_msgs/cmake
 
@@ -1081,7 +1087,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=23
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=24
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

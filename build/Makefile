@@ -307,7 +307,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/std_msgs_generate_messages_py.dir/build.make hello_vscode/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/std_msgs_generate_messages_py.dir/build.make demo03_plugin/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -320,7 +320,7 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make hello_vscode/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make demo03_plugin/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -333,7 +333,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make hello_vscode/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make demo03_plugin/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -346,7 +346,7 @@ roscpp_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/roscpp_generate_messages_eus.dir/build.make hello_vscode/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/roscpp_generate_messages_eus.dir/build.make demo03_plugin/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
@@ -359,7 +359,7 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -372,7 +372,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make hello_vscode/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make demo03_plugin/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -385,7 +385,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/roscpp_generate_messages_py.dir/build.make hello_vscode/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/roscpp_generate_messages_py.dir/build.make demo03_plugin/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -398,7 +398,7 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make hello_vscode/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make demo03_plugin/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -411,7 +411,7 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make hello_vscode/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make demo03_plugin/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -424,8 +424,73 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f demo03_plugin/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make demo03_plugin/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_eus
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_eus
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_eus/fast:
+	$(MAKE) -f demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+.PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_lisp
+
+# Build rule for target.
+roscpp_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	$(MAKE) -f demo03_plugin/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make demo03_plugin/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_py
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	$(MAKE) -f demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make demo03_plugin/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named hello_vscode_c
@@ -439,71 +504,6 @@ hello_vscode_c: cmake_check_build_system
 hello_vscode_c/fast:
 	$(MAKE) -f hello_vscode/CMakeFiles/hello_vscode_c.dir/build.make hello_vscode/CMakeFiles/hello_vscode_c.dir/build
 .PHONY : hello_vscode_c/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
-
-# Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make hello_vscode/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_eus
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_eus
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_lisp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_lisp
-
-# Build rule for target.
-roscpp_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make hello_vscode/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_py
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make hello_vscode/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named use_hello
@@ -2969,12 +2969,12 @@ help:
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... hello_vscode_c"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... hello_vscode_c"
 	@echo "... use_hello"
 	@echo "... head_src"
 	@echo "... demo02_param_get"
